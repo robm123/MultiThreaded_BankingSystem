@@ -1,9 +1,7 @@
-# MultiThreaded_BankingSystem
+#MultiThreaded_BankingSystem
 
-This project is divided in two pieces.
-1-server
-2-client
-In our Server:
+##Server
+
 We have one thread that responds back to the client when the client sends a request to the server. Our
 Server holds all the data and bank accounts.
 The threads were created asynchronizaly which means that threads don’t interfere with one another. There
