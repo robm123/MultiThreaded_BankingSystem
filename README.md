@@ -3,6 +3,7 @@
 ## ![](http://icons.iconarchive.com/icons/devcom/network/48/server-Vista-icon.png)Server
 
 There is  thread that responds back to the client when the client sends a request to the server.
+
 Our Server holds all the data and bank accounts.
 The threads were created asynchronizaly which means that threads don’t interfere with one another.
 There is no need to wait for an input on the client, therefore the server can send a message, and otherwise, both sides will have to wait.
