@@ -12,6 +12,9 @@ tokens and we analyze the token based on the possible valid commands on the serv
 Start, debit, credit, balance, Exit} followed by the account name.
 We check if the string construction is valid. If it’s valid we proceed, otherwise, we prompt an error
 “invalid command”
+
+##Client
+
 Based on the command we proceed, when we run the server, it runs with 0 accounts. Client can use open
 accountName to open a new account and that creates an account on the server with everything initialized
 to 0.
