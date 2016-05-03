@@ -1,6 +1,6 @@
 #MultiThreaded_BankingSystem
 
-##Server
+## ![](http://icons.iconarchive.com/icons/devcom/network/48/server-Vista-icon.png)Server
 
 We have one thread that responds back to the client when the client sends a request to the server. Our
 Server holds all the data and bank accounts.
@@ -13,7 +13,7 @@ Start, debit, credit, balance, Exit} followed by the account name.
 We check if the string construction is valid. If it’s valid we proceed, otherwise, we prompt an error
 “invalid command”
 
-##Client
+## ![](https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Non-Service_Specific_copy_Client-64.png)Client
 
 Based on the command we proceed, when we run the server, it runs with 0 accounts. Client can use open
 accountName to open a new account and that creates an account on the server with everything initialized
