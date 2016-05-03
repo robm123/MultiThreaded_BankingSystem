@@ -2,16 +2,21 @@
 
 ## ![](http://icons.iconarchive.com/icons/devcom/network/48/server-Vista-icon.png)Server
 
-We have one thread that responds back to the client when the client sends a request to the server. Our
-Server holds all the data and bank accounts.
-The threads were created asynchronizaly which means that threads don’t interfere with one another. There
-is no need to wait for an input on the client, therefore the server can send a message, and otherwise, both
-sides will have to wait.
-When the client sends a command to the server, we Use our Tokenizer to split the command String into
-tokens and we analyze the token based on the possible valid commands on the server. Such that {Open,
-Start, debit, credit, balance, Exit} followed by the account name.
-We check if the string construction is valid. If it’s valid we proceed, otherwise, we prompt an error
-“invalid command”
+There is  thread that responds back to the client when the client sends a request to the server.
+Our Server holds all the data and bank accounts.
+The threads were created asynchronizaly which means that threads don’t interfere with one another.
+There is no need to wait for an input on the client, therefore the server can send a message, and otherwise, both sides will have to wait.
+When the client sends a command to the server the **tokenizer** file will split the command string into
+tokens then analyzed based on the possible valid commands for the server.
+
+*Open
+*Start 
+*debit 
+*credit 
+*balance 
+*Exit
+
+If the string construction is valid we proceed, otherwise, we prompt an error “invalid command”
 
 ## ![](https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Non-Service_Specific_copy_Client-64.png)Client
 
