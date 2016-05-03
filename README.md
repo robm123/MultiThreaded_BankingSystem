@@ -16,11 +16,11 @@ There is no need to wait for an input on the client, therefore the server can se
 When the client sends a command to the server the **tokenizer** file will split the command string into tokens then analyzed based on the possible valid commands for the server.
 
 * Open
-*Start 
-*debit 
-*credit 
-*balance 
-*Exit
+* Start 
+* debit 
+* credit 
+* balance 
+* Exit
 
 If the string construction is valid we proceed, otherwise, we prompt an error “invalid command”
 
