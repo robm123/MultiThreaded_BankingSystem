@@ -1,4 +1,4 @@
-#MultiThreaded_BankingSystem
+#MultiThreaded BankingSystem
 
 ## ![](http://icons.iconarchive.com/icons/devcom/network/48/server-Vista-icon.png)Server
 
